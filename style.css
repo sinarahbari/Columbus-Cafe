@@ -298,8 +298,7 @@ a {
 .WIFI {
   width: 50%;
   height: 600px;
-/*   background: url("Picture/Wificop.jpg") no-repeat center center/cover; */
-  background: url("/Columbus-Cafe/Picture/WIFIcop.jpg") no-repeat center center/cover;
+  background: url("Wificop.jpg") no-repeat center center/cover;
   animation: wifiAnimation 5s infinite alternate; /* انیمیشن برای بخش وای‌فای */
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0);
@@ -323,8 +322,7 @@ a {
 .WIFI {
   width: 100%;
   height: 400px; /* ارتفاع کمتر برای کوچک‌تر کردن بخش */
-/*   background: url("../Picture/Wificop.jpg") no-repeat center center; */
-  background: url("/Columbus-Cafe/Picture/WIFIcop.jpg") no-repeat center center/cover;
+  background: url("Wificop.jpg") no-repeat center center/cover;
   background-size: contain; /* تصویر کوچک‌تر می‌شود و درون بخش قرار می‌گیرد */
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
