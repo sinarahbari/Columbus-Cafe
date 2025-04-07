@@ -14,8 +14,8 @@ body {
 
 
 
-/* استایل‌های عمومی (برای دسکتاپ) */
-header {
+/* /* استایل‌های عمومی (برای دسکتاپ) */
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,10 +54,10 @@ header {
     width: 100px;
     font-size: 12px;
   }
-}
+} */
 
 /* استایل برای موبایل (عرض کمتر از 480px) */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   h1 {
     font-size: 20px;
   }
@@ -78,16 +78,16 @@ header {
 
 @media (max-width: 768px) {
   .IMG img {
-    display: block; /* اطمینان از نمایش لوگو */
-    max-width: 80%; /* تنظیم اندازه لوگو برای دستگاه‌های کوچک‌تر */
+    display: block;  اطمینان از نمایش لوگو 
+    max-width: 80%;  تنظیم اندازه لوگو برای دستگاه‌های کوچک‌تر 
   }
-}
+} */
 
 
 
 
 
-.translate-button {
+/* .translate-button {
   width: 120px;
   padding: 10px;
   font-size: 14px;
@@ -144,4 +144,4 @@ header {
     flex-direction: column;
     gap: 10px;
   }
-}
+}  */
