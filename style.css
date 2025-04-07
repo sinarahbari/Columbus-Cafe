@@ -70,6 +70,8 @@ header > section {
   max-width: 100%;
   height: auto;
   margin-top: 0px;
+  position: relative;
+  z-index: 10; /* اطمینان از اینکه لوگو بالای سایر عناصر قرار دارد */
 }
 
 .men-head {
