@@ -1,0 +1,500 @@
+body {
+  box-sizing: border-box;
+  background: black;
+  text-align: center;
+  font-family: "Cooper Black" "monospace,sans-serif";
+  font-family: "Uniform";
+  overflow-x: hidden;
+  animation: shakePage 0.5s ease-in-out;
+
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.85)),
+    url("../Picture/background.jpg") no-repeat center center/cover;
+  color: white;
+  font-family: "Cooper Black", sans-serif;
+}
+
+* {
+  border: none;
+  outline: black;
+  text-decoration: none;
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+.back-H {
+  position: fixed;
+  top: 25%;
+  width: 200vw;
+  height: 100vh;
+  background: url("../Picture/Mugs-ours-francais-scaled.webp") no-repeat center
+    center/cover;
+  z-index: -1;
+  opacity: 0.8;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: zoomRotate 15s infinite linear;
+}
+
+@keyframes zoomRotate {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(180deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  disply: inline;
+  margin: 10px;
+  padding: 50px;
+}
+
+header > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(252, 185, 0, 0.43);
+  font-family: "Cooper Black";
+}
+
+.IMG img {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.men-head {
+  background-color: none;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.men-head ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.men-head li {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+.men-head li:hover {
+  background-color: rgb(0, 17, 255);
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.62);
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Cooper Black";
+}
+
+ul {
+  padding: 30px;
+}
+
+h2 {
+  font: sans;
+  color: rgb(255, 251, 0);
+  text-shadow: 0 4px 9px rgb(0, 17, 255);
+  font-family: "Cooper Black";
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: "Uniform", sans-serif;
+  font-weight: 400;
+  margin: 10px;
+  text-align: justify;
+}
+
+button > a {
+  display: inline;
+  background-color: rgb(0, 0, 0);
+  padding: 4px;
+  font-size: 15px;
+  border-radius: 5px;
+  justify-content: center;
+  font-family: "Cooper Black";
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  justify-content: center;
+}
+
+.Hours > h3 {
+  font-size: 30px;
+  text-shadow: 0 2px 3px rgb(0, 0, 0);
+}
+
+.Hours ul {
+  list-style: none;
+  padding: 20px;
+  font-family: "monospace,sans-serif";
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.Hours {
+  width: 50%;
+  height: 50vh;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 17, 255, 0.38);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgb(0, 0, 0);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.Hours h3 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  animation: slideIn 1s ease-in-out;
+  font-family: "Cooper Black";
+}
+
+.Hours ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Hours ul li {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.Hours ul li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.Hours ul li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.Hours ul li:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.Hours ul li:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.Hours ul li:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.Hours ul li:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+.Hours ul li:nth-child(7) {
+  animation-delay: 1.4s;
+}
+
+/* انیمیشن‌ها */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.footer p {
+  font-size: 14px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease; /* انیمیشن تغییر رنگ و زوم */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+}
+
+.footer p:hover {
+  transform: scale(1.1); /* زوم متن */
+  color: yellow; /* تغییر رنگ متن */
+}
+
+.footer p {
+  font-size: 14px;
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
+  transition: text-shadow 0.3s ease;
+  margin-right: -1080px;
+  margin-top: 100px;
+  color: black;
+}
+
+.footer p:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 0 0 20px rgba(255, 255, 0, 0.8),
+    0 0 30px rgba(255, 255, 0, 0.8);
+}
+
+.WIFI {
+  width: 50%;
+  height: 600px;
+  background: url("../Picture/WIFIcop.jpg") no-repeat center center/cover;
+  animation: wifiAnimation 5s infinite alternate; /* انیمیشن برای بخش وای‌فای */
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0);
+}
+
+@keyframes wifiAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 1.9;
+  }
+}
+
+.WIFI {
+  width: 100%;
+  height: 400px; /* ارتفاع کمتر برای کوچک‌تر کردن بخش */
+  background: url("../Picture/Wificop.jpg") no-repeat center center;
+  background-size: contain; /* تصویر کوچک‌تر می‌شود و درون بخش قرار می‌گیرد */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  animation: wifiAnimation 5s infinite alternate;
+}
+
+.back-button {
+  width: 100px;
+  display: inline-block;
+  background-color: #fcb900;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Cooper Black";
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.back-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: yellow;
+  transition: width 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: rgb(0, 17, 255);
+  color: yellow;
+  transform: scale(1.1);
+}
+
+.back-button:hover::after {
+  width: 100%;
+}
+
+header {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.men-head li a {
+  position: relative;
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.men-head li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: yellow;
+  transition: width 0.3s ease;
+}
+
+.men-head li a:hover {
+  color: yellow;
+  transform: scale(1.1);
+}
+
+.men-head li a:hover::after {
+  width: 100%;
+}
+
+.IMG img {
+  animation: spin 2s ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3s steps(30, end), blink 0.5s step-end infinite alternate;
+  animation-fill-mode: forwards;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: blue;
+  }
+}
+
+.men-head ul:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shke {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+.translate-button {
+  width: 120px;
+  display: inline-block;
+  background-color: rgb(4, 0, 255);
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 12px;
+  font-family: "Cooper Black";
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.translate-button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
+}
