@@ -77,11 +77,11 @@ header {
 
 
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
 
-}
+} */
 
 
 
@@ -90,7 +90,18 @@ img {
     display: block; /* اطمینان از نمایش لوگو */
     max-width: 80%; /* تنظیم اندازه لوگو برای دستگاه‌های کوچک‌تر */
   }
+} 
+
+
+
+
+.IMG img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto; /* مرکز کردن لوگو */
 }
+
+
 
 .translate-button {
   width: 120px;
