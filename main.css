@@ -77,19 +77,11 @@ header {
 
 
 
-
-
-
 img {
   max-width: 100%;
   height: auto;
-   position: relative;
-  z-index: 10; /* اطمینان از اینکه لوگو بالای سایر عناصر قرار دارد */
+
 }
-
-
-
-
 
 .translate-button {
   width: 120px;
