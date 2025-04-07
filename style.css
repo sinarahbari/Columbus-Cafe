@@ -260,11 +260,47 @@ a {
   }
 }
 
+/* .footer p {
+  font-size: 14px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease; 
+} */
+
+/* .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+}
+
+.footer p:hover {
+  transform: scale(1.1); 
+  color: yellow; 
+}
+
 .footer p {
   font-size: 14px;
   color: white;
-  transition: transform 0.3s ease, color 0.3s ease; /* انیمیشن تغییر رنگ و زوم */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+  0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
+  transition: text-shadow 0.3s ease;
+  margin-right: -1080px;
+  margin-top: 100px;
+  color: black;
 }
+
+.footer p:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 0 0 20px rgba(255, 255, 0, 0.8),
+    0 0 30px rgba(255, 255, 0, 0.8);
+} */
+
+
+
+
+
+
+
 
 .footer {
   display: flex;
@@ -274,26 +310,23 @@ a {
   text-align: center;
 }
 
-.footer p:hover {
-  transform: scale(1.1); /* زوم متن */
-  color: yellow; /* تغییر رنگ متن */
-}
-
 .footer p {
   font-size: 14px;
   color: white;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
   0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
   transition: text-shadow 0.3s ease;
-/*   margin-right: -1080px;
-  margin-top: 100px; */
-  color: black;
 }
 
 .footer p:hover {
   text-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 0 0 20px rgba(255, 255, 0, 0.8),
     0 0 30px rgba(255, 255, 0, 0.8);
 }
+
+
+
+
+
 
 
 
