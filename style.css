@@ -260,11 +260,11 @@ a {
   }
 }
 
-/* .footer p {
+.footer p {
   font-size: 14px;
   color: white;
   transition: transform 0.3s ease, color 0.3s ease; 
-} */
+}
 
 /* .footer {
   display: flex;
