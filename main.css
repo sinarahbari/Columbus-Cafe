@@ -83,6 +83,15 @@ img {
 
 }
 
+
+
+@media (max-width: 768px) {
+  .IMG img {
+    display: block; /* اطمینان از نمایش لوگو */
+    max-width: 80%; /* تنظیم اندازه لوگو برای دستگاه‌های کوچک‌تر */
+  }
+}
+
 .translate-button {
   width: 120px;
   padding: 10px;
