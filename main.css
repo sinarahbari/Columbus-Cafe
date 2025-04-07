@@ -76,27 +76,14 @@ header {
 }
 
 
-
-
-
-
-
 @media (max-width: 768px) {
   .IMG img {
-  max-width: 80%;
-  min-width: 150px; /* حداقل عرض */
-  height: auto;
+    display: block; /* اطمینان از نمایش لوگو */
+    max-width: 80%; /* تنظیم اندازه لوگو برای دستگاه‌های کوچک‌تر */
   }
-} 
+}
 
 
-
-/* 
-.IMG img {
-  display: block;
-  max-width: 80%;
-  margin: 0 auto; /* مرکز کردن لوگو */
-} */
 
 
 
