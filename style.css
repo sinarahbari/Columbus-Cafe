@@ -304,7 +304,7 @@ a {
 .WIFI {
   width: 50%;
   height: 600px;
-  background: URL("./Picture/WIFIcop.jpg") no-repeat center center/cover;
+  background: URL('/Picture/WIFIcop.jpg') no-repeat center center/cover;
   animation: wifiAnimation 5s infinite alternate; /* انیمیشن برای بخش وای‌فای */
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0);
