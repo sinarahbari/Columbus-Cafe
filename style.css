@@ -34,9 +34,7 @@ body{
   animation: zoom rotate 15s infinite linear;
 }
 
-.back-H {
-  animation: zoomRotate 15s infinite linear;
-}
+
 
 @keyframes zoomRotate {
   0% {
