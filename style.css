@@ -1,4 +1,4 @@
-body {
+body{
   box-sizing: border-box;
   background: black;
   text-align: center;
@@ -7,8 +7,8 @@ body {
   overflow-x: hidden;
   animation: shakePage 0.5s ease-in-out;
 
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.85)),
-  url("../Picture/background.jpg") no-repeat center center/cover;
+  background: linear-gradient(RGB(0, 0, 0), rgba(0, 0, 0, 0.85)),
+  URL("../Picture/background.jpg") no-repeat center center/cover;
   color: white;
   font-family: "Cooper Black", sans-serif;
 }
@@ -27,12 +27,12 @@ body {
   top: 25%;
   width: 200vw;
   height: 100vh;
-  background: url("../Picture/background.jpg") no-repeat center center/cover;    
+  background: URL("../Picture/background.jpg") no-repeat center center/cover;    
   z-index: -1;
   opacity: 0.8;
   background-size: cover;
   background-attachment: fixed;
-  animation: zoomRotate 15s infinite linear;
+  animation: zoom rotate 15s infinite linear;
 }
 
 .back-H {
@@ -57,7 +57,7 @@ body {
 div {
   width: 100px;
   height: 100px;
-  disply: inline;
+  display: inline;
   margin: 10px;
   padding: 50px;
 }
@@ -71,7 +71,7 @@ header > section {
   font-family: "Cooper Black";
 }
 
-.IMG img {
+.IMG IMG {
   display: inline;
   max-width: 100%;
   height: auto;
@@ -102,7 +102,7 @@ header > section {
   transition: all 0.3s ease;
 }
 
-.men-head li:hover {
+.men-head li: hover {
   background-color: rgb(0, 17, 255);
   border-radius: 5px;
 }
@@ -127,8 +127,8 @@ ul {
 
 h2 {
   font: sans;
-  color: rgb(255, 251, 0);
-  text-shadow: 0 4px 9px rgb(0, 17, 255);
+  color: RGB(255, 251, 0);
+  text-shadow: 0 4px 9px RGB(0, 17, 255);
   font-family: "Cooper Black";
   text-align: left;
   margin-top: 20px;
@@ -136,7 +136,7 @@ h2 {
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: RGB(255, 255, 255);
   font-family: "Uniform", sans-serif;
   font-weight: 400;
   margin: 10px;
@@ -145,7 +145,7 @@ p {
 
 button > a {
   display: inline;
-  background-color: rgb(0, 0, 0);
+  background-color: RGB(0, 0, 0);
   padding: 4px;
   font-size: 15px;
   border-radius: 5px;
@@ -154,7 +154,7 @@ button > a {
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: RGB(255, 255, 255);
   text-decoration: none;
   justify-content: center;
 }
@@ -168,7 +168,7 @@ a {
   list-style: none;
   padding: 20px;
   font-family: "monospace,sans-serif";
-  text-shadow: 0px 4px 4px rgb(0, 0, 0);
+  text-shadow: 0px 4px 4px RGB(0, 0, 0);
 }
 
 .Hours {
@@ -188,7 +188,7 @@ a {
   color: #222;
   margin-bottom: 15px;
   text-transform: uppercase;
-  animation: slideIn 1s ease-in-out;
+  animation: slide-in 1s ease-in-out;
   font-family: "Cooper Black";
 }
 
@@ -244,13 +244,13 @@ a {
   }
 }
 
-@keyframes slideIn {
+@keyframes slide {
   from {
     transform: translateY(-20px);
     opacity: 0;
   }
   to {
-    transform: translateY(0);
+    transform: translate(0);
     opacity: 1;
   }
 }
@@ -280,7 +280,7 @@ a {
   text-align: center;
 }
 
-.footer p:hover {
+.footer p: hover {
   transform: scale(1.1); /* زوم متن */
   color: yellow; /* تغییر رنگ متن */
 }
@@ -304,7 +304,7 @@ a {
 .WIFI {
   width: 50%;
   height: 600px;
-  background: url("../Picture/WIFIcop.jpg") no-repeat center center/cover;
+  background: URL("../Picture/WIFIcop.jpg") no-repeat center center/cover;
   animation: wifiAnimation 5s infinite alternate; /* انیمیشن برای بخش وای‌فای */
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0);
@@ -380,7 +380,7 @@ header {
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(0);
   }
 }
 
@@ -403,7 +403,7 @@ header {
   transition: width 0.3s ease;
 }
 
-.men-head li a:hover {
+.men-head li a: hover {
   color: yellow;
   transform: scale(1.1);
 }
@@ -412,7 +412,7 @@ header {
   width: 100%;
 }
 
-.IMG img {
+.IMG IMG {
   animation: spin 2s ease-in-out;
 }
 
@@ -462,23 +462,23 @@ h1 {
 @keyframes shke {
   0%,
   100% {
-    transform: translateX(0);
+    transform: translate(0);
   }
   25% {
-    transform: translateX(-5px);
+    transform: translate(-5px);
   }
   50% {
-    transform: translateX(5px);
+    transform: translate(5px);
   }
   75% {
-    transform: translateX(-5px);
+    transform: translate(-5px);
   }
 }
 
 .translate-button {
   width: 120px;
   display: inline-block;
-  background-color: rgb(4, 0, 255);
+  background-color: RGB(4, 0, 255);
   color: white;
   border: none;
   padding: 10px 10px;
