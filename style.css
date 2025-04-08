@@ -35,6 +35,10 @@ body {
   animation: zoomRotate 15s infinite linear;
 }
 
+.back-H {
+  animation: zoomRotate 15s infinite linear;
+}
+
 @keyframes zoomRotate {
   0% {
     transform: scale(1) rotate(0deg);
