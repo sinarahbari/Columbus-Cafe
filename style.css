@@ -69,11 +69,14 @@ header > section {
   font-family: "Cooper Black";
 }
 
+
 .IMG img {
   display: inline;
   max-width: 100%;
   height: auto;
   margin-top: 0px;
+  background: url("LOGO-ColumB.svg") no-repeat center
+
 }
 
 .men-head {
