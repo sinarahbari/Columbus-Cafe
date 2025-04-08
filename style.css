@@ -290,9 +290,9 @@ a {
   font-size: 14px;
   color: white;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
-    0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
+  0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
   transition: text-shadow 0.3s ease;
-  margin-right: -1080px;
+  margin-right: -2000px;
   margin-top: 100px;
   color: black;
 }
