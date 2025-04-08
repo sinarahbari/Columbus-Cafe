@@ -8,7 +8,7 @@ body {
   animation: shakePage 0.5s ease-in-out;
 
   background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.85)),
-    url("../Picture/background.jpg") no-repeat center center/cover;
+    url("/Picture/background.jpg") no-repeat center center/cover;
   color: white;
   font-family: "Cooper Black", sans-serif;
 }
