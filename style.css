@@ -78,6 +78,11 @@ header > section {
 
 }
 
+.logo {
+    background-image: url('images/logo.png');
+}
+
+
 .men-head {
   background-color: none;
   padding: 10px 0;
