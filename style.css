@@ -71,7 +71,7 @@ header > section {
 
 
 .IMG img {
-  display: inline;
+  display: block;
   max-width: 100%;
   height: auto;
   margin-top: 0px;
