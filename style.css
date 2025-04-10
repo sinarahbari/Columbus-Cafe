@@ -55,9 +55,9 @@ body {
 div {
   width: 100px;
   height: 100px;
-  disply: inline;
+  disply: block;
   margin: 10px;
-  padding: 50px;
+  padding: 0px;
 }
 
 header > section {
