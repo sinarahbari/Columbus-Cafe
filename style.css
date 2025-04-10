@@ -55,9 +55,9 @@ body {
 div {
   width: 100px;
   height: 100px;
-  disply: block;
+  disply: inline;
   margin: 10px;
-  padding: 50px;
+  padding: 0px;
 }
 
 header > section {
@@ -82,7 +82,7 @@ header > section {
   width: 75px;
   height: 95px;
   display: block;
-  margin:-33px;
+  margin:-30px;
 }
 
 .men-head {
