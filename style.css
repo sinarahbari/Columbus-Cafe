@@ -74,10 +74,11 @@ header > section {
   display: block;
   max-width: 200%;
   height: 200px;
-  margin-top: 0px;
-
-
-
+  width: 160px;
+  height: 124px;
+  disply: inline;
+  margin:14px;
+  padding:25px;
 }
 
 .men-head {
