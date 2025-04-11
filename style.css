@@ -536,6 +536,7 @@ h1 {
 p {
     text-align: justify;
     margin: 10px;
+  font-size: 12px;
 }
 
 
@@ -548,21 +549,25 @@ p {
 .Hours {
         text-align: center;
         padding: 10px;
+  font-size: 12px;
     }
 
     .Hours h3 {
         font-size: 20px;
         margin-bottom: 10px;
+      font-size: 12px;
     }
 
     .Hours ul {
         list-style: none;
         padding: 0;
+      font-size: 12px;
     }
 
     .Hours li {
         font-size: 16px;
         margin: 5px 0;
+      font-size: 12px;
     }
 
   .footer {
@@ -576,6 +581,14 @@ p {
         text-align: center;
     }
   
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+}
   
 }
 
