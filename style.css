@@ -536,7 +536,7 @@ h1 {
 p {
     text-align: justify;
     margin: 10px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 
@@ -549,25 +549,25 @@ p {
 .Hours {
         text-align: center;
         padding: 10px;
-  font-size: 12px;
+        font-size: 20px;
     }
 
     .Hours h3 {
-        font-size: 20px;
-        margin-bottom: 10px;
-      font-size: 12px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      
     }
 
     .Hours ul {
-        list-style: none;
-        padding: 0;
-      font-size: 12px;
+      list-style: none;
+      padding: 0;
+      font-size: 16px;
     }
 
     .Hours li {
         
         margin: 5px 0;
-        font-size: 10px;
+        font-size: 16px;
     }
 
   .footer {
@@ -577,7 +577,7 @@ p {
     }
 
     .footer p {
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
     }
   
@@ -592,13 +592,13 @@ body, html {
 
     .menu li {
         margin: 10px 0; 
-        font-size: 16px; 
+        font-size: 12px; 
     }
 
     .menu a {
         text-decoration: none;
         color: #000; 
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .menu a:hover {
