@@ -586,8 +586,26 @@ body, html {
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+    overflow-x: hidden;
 }
+
+
+    .menu li {
+        margin: 10px 0; 
+        font-size: 16px; 
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #000; 
+        font-size: 14px;
+    }
+
+    .menu a:hover {
+        color: #ff9900; 
+    }
+
+
   
 }
 
