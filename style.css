@@ -539,6 +539,9 @@ p {
   font-size: 16px;
 }
 
+  Li{
+    font-size: 10px;
+
 
   img {
     max-width: 100%;
@@ -592,7 +595,7 @@ p {
 
     .menu li {
         margin: 10px 0; 
-        font-size: 12px; 
+        font-size: 10px; 
     }
 
     .menu a {
