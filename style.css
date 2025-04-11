@@ -574,11 +574,11 @@ p {
   .footer {
         flex-direction: column;
         height: auto;
-        padding: 10px;
+        padding: 0px;
     }
 
     .footer p {
-        font-size: 16px;
+        font-size: 12px;
         text-align: center;
     }
   
