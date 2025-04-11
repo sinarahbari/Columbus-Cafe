@@ -563,14 +563,14 @@ p {
 
     .Hours ul {
       list-style: none;
-      padding: 10;
+      padding: 10px;
       font-size: 12px;
     }
 
     .Hours li {
         
         margin: 5px 0;
-        font-size: 16px;
+        font-size: 10px;
     }
 
   .footer {
