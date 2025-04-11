@@ -531,5 +531,22 @@ h1 {
     .container {
         padding: 10px;
     }
+
+
+p {
+    text-align: justify;
+    margin: 10px;
 }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+  
+}
+
+
+
+
 
